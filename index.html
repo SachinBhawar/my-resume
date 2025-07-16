@@ -219,29 +219,9 @@
         <!-- Download Button -->
         <a
             href="./assets/Sachin Bhawar - Frontend Developer_Resume.pdf"
-            class="download-btn"
+            class="download-btn no-print"
             download="Sachin Bhawar - Frontend Developer Resume"
             >Download PDF Resume</a
         >
-
-        <!-- Include html2pdf library -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-        <script>
-            document.getElementById("downloadBtn").addEventListener("click", function (e) {
-                e.preventDefault();
-
-                const element = document.getElementById("resume");
-                const opt = {
-                    margin: 20,
-                    filename: "Sachin_Bhawar_Frontend_Developer_Resume.pdf",
-                    image: { type: "jpeg", quality: 0.98 },
-                    html2canvas: { scale: 2 },
-                    jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
-                };
-
-                // Generate PDF
-                html2pdf().set(opt).from(element).save();
-            });
-        </script> -->
     </body>
 </html>

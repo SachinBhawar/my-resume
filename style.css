@@ -233,4 +233,8 @@ ul li:before {
         size: A4;
         margin: 0.5cm;
     }
+
+    .no-print {
+        display: none !important;
+    }
 }
