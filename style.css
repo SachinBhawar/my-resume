@@ -170,10 +170,11 @@ ul li:before {
 
 /* Download Button */
 .download-btn {
-    display: block;
-    width: 200px;
-    margin: 20px auto;
-    padding: 10px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 10px 15px;
     background-color: #3ccdda;
     color: white;
     text-align: center;
