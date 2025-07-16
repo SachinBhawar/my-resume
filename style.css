@@ -210,26 +210,27 @@ ul li:before {
         gap: 5px;
     }
 }
-
 @media print {
     body {
-        background-color: white;
-        padding: 0;
-    }
-
-    .resume {
-        box-shadow: none;
-        padding: 20mm;
         margin: 0;
+        padding: 0;
+        font-size: 12px;
+        zoom: 90%; /* adjust to fit everything on one page */
     }
 
-    .download-btn {
-        display: none;
+    * {
+        page-break-inside: avoid;
+        box-shadow: none !important;
     }
 
-    /* Ensure A4 size */
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
     @page {
         size: A4;
-        margin: 20mm;
+        margin: 0.5cm;
     }
 }
