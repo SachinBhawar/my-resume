@@ -36,12 +36,13 @@ VS Code, Git/GitHub, Postman
 
 ## 🚀 Projects
 
-### 🔹 AI Chatbot React App  
-[GitHub Repo](https://github.com/SachinBhawar/ai-chatbot) | [Live Demo](https://ai-chatbot-by-sachinbhawar.vercel.app/)  
-*Feb 2025*  
-**Tech:** React.js, Google Generative AI, Tailwind CSS  
-- Integrated Google’s NLP API to deliver **context-aware responses**  
-- Designed a user-friendly interface with prompt-response workflow
+### 🔹 AI-Powered Interview Assistant 
+[GitHub Repo](https://github.com/SachinBhawar/ai-powered-interview) | [Live Demo](https://ai-powered-interview-by-sachin.vercel.app)  
+*Oct 2025*  
+**Tech:** React.js, Google Gemini AI APIs (LLM), Tailwind CSS, Redux State Management
+- Developed an AI-driven interview platform with **resume parsing** and **role-based question generation** 
+- Implemented **timed interviews** with AI-powered answer evaluation, **automated scoring and feedback**
+- Built an interviewer dashboard to track **real-time interview status and candidate performance**
 
 ---
 
